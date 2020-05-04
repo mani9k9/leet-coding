@@ -1,0 +1,6 @@
+class Solution {
+    public int findComplement(int num) {
+    //use xor and arraylist 
+        return num ^ ((1<<Integer.toString(num , 2).length()) - 1);
+    }
+}
